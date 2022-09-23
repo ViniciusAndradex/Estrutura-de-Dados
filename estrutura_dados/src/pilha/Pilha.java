@@ -1,8 +1,7 @@
-package notacao;
+package pilha;
 
 public class Pilha {
-	
-	public int topo;
+    public int topo;
 	public float pilha[] = new float [200];
 	public String expressao;
 	
@@ -21,5 +20,4 @@ public class Pilha {
 			System.out.println(e.getMessage());
 		}
 	}
-			
 }
